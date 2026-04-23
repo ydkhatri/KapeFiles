@@ -11,13 +11,13 @@ Targets:
         FileMask: "Tailscale*.log"
         Comment: "Tailscale Installation Log Files"
     -
-        Name: Notepad Window State Files
+        Name: Local App Data Files
         Category: Network
         Path: C:\Users\%user%\AppData\Local\Tailscale\
         Recursive: true
         Comment: "Local App Data Files and Avatars"
     -
-        Name: Other logs
+        Name: Tailscale Program Data
         Category: Network
         Path: C:\ProgramData\Tailscale\
         Recursive: true
